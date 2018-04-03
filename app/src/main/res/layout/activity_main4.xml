@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="com.example.yanth.gipapp.Main4Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:text="@string/number"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        tools:text="@string/number" />
+
+    <TextView
+        android:id="@+id/UsersTexview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ScoreTextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/my_button_bg"
+        android:text="@string/next_button"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:text="@string/next_button" />
+
+    <TextView
+        android:id="@+id/ScoreTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UsersTexview"
+        android:layout_marginTop="70dp"
+        android:layout_toStartOf="@+id/textView8"
+        android:text="@string/score_textview"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ScoreTextview"
+        android:layout_alignBottom="@+id/ScoreTextview"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/button10"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+
+
+
+</RelativeLayout>

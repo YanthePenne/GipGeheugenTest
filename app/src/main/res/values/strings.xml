@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GipApp</string>
+    <string name="button_start">start</string>
+    <string name="button1_text">1</string>
+    <string name="button2_text">2</string>
+    <string name="button3_text">3</string>
+    <string name="button4_text">4</string>
+    <string name="button5_text">5</string>
+    <string name="button6_text">6</string>
+    <string name="button7_text">7</string>
+    <string name="button8_text">8</string>
+    <string name="button9_text">9</string>
+    <string name="button0_text">0</string>
+    <string name="button_check_text">check</string>
+    <string name="button_del_text">delete</string>
+    <string name="textview_text">Remember this number!</string>
+    <string name="correctanswer_text">The correct answer is</string>
+    <string name="youranswer_text">Your answer is</string>
+    <string name="tryagain_button">Try again</string>
+    <string name="next_button">Next</string>
+    <string name="finalscore_textview">Final score</string>
+    <string name="score_textview">Score</string>
+    <string name="number">The number was</string>
+    <string name="correct_view">Correct!!</string>
+</resources>

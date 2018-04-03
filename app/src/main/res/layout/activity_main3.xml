@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/messengerBlue">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="410dp"
+        android:layout_height="462dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignTop="@+id/button_check"
+            android:layout_toEndOf="@+id/button_del"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button0_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_below="@+id/button4"
+            android:layout_toStartOf="@+id/button5"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button1_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_below="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button2_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_below="@+id/button6"
+            android:layout_toEndOf="@+id/button2"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button3_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignStart="@+id/button1"
+            android:layout_below="@+id/button7"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button4_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignStart="@+id/button8"
+            android:layout_below="@+id/button8"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button5_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_below="@+id/button9"
+            android:layout_toEndOf="@+id/button8"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button6_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/button4"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button7_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_above="@+id/button4"
+            android:layout_toStartOf="@+id/button9"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button8_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button9_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button_del"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_alignStart="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button_del_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/button_check"
+            android:layout_width="136.6666666666667dp"
+            android:layout_height="115.5dp"
+            android:layout_below="@+id/button3"
+            android:layout_toEndOf="@+id/button0"
+            android:background="@color/white"
+            android:backgroundTint="@color/messengerBlue"
+            android:text="@string/button_check_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="196dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/messengerBlue"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="italic"
+            android:paddingTop="98dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="122dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

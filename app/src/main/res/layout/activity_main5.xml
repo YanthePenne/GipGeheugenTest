@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yanth.gipapp.Main5Activity"
+    android:background="@color/red">
+
+    <TextView
+        android:id="@+id/CorrectTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:text="12"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="@string/correctanswer_text"
+        android:textSize="20sp"
+        tools:text="@string/correctanswer_text"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/UsersTexview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="12"
+        android:textSize="50sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UsersTexview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/youranswer_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:text="@string/youranswer_text" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/my_button"
+        android:text="@string/tryagain_button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:text="@string/tryagain_button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button10"
+        android:layout_below="@+id/CorrectTextview"
+        android:layout_marginTop="64dp"
+        android:text="@string/score_textview"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+</RelativeLayout>
